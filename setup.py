@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='fibo_sum',
@@ -8,8 +8,8 @@ setup(
     description='Returns the sum of N numbers of the fibonacci sequence',
     author='Lew Andrade',
     author_email='andrade.lew@gmail.com',
-    url='https://github.com/user/reponame',
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+    url='https://github.com/LewAndrade/fibo-sum',
+    download_url='https://github.com/LewAndrade/fibo-sum/archive/refs/tags/1.0.tar.gz',
     keywords=['Fibonacci', 'Sum'],
     classifiers=[
         'Development Status :: 3 - Alpha',

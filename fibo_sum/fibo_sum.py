@@ -1,4 +1,4 @@
-def fib_sum(number: int):
+def fibo_sum(number: int):
     """
     Recursively calculates the fibonacci sequence's sum up to a given number.
 
@@ -9,7 +9,4 @@ def fib_sum(number: int):
     if number < 2:
         return number
 
-    return fib_sum(number - 1) + fib_sum(number - 2) + 1
-
-
-print(fib_sum(30))
+    return fibo_sum(number - 1) + fibo_sum(number - 2) + 1
